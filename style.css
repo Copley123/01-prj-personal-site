@@ -1,1 +1,48 @@
 /* Add you CSS here */
+
+/* Set a blue and brown gradient as the background for the whole page */
+body {
+  /* This creates a gradient from blue at the top to brown at the bottom */
+  background: linear-gradient(90deg, #881f60, #22947f);
+  /* Add some padding so content isn't right at the edge */
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif; /* Use a clean, easy-to-read font */
+}
+
+/* Container for the white box */
+.container {
+  background: white; /* White background for the box */
+  border-radius: 16px; /* Rounded edges */
+  max-width: 600px; /* Limit the width for better readability */
+  margin: 40px auto; /* Center the box horizontally and add space at the top */
+  padding: 24px; /* Space inside the box */
+  box-shadow: 0 4px 16px rgba(0,0,0,0.08); /* Soft shadow for a modern look */
+}
+
+/* Navigation bar styles */
+.navbar {
+  background: rgba(255, 255, 255, 0.95); /* Slightly see-through white */
+  border-radius: 0 0 16px 16px; /* Rounded bottom edges */
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07); /* Soft shadow under navbar */
+  max-width: 600px; /* Match the container width */
+  margin: 24px auto 0 auto; /* Center navbar and add space at the top */
+  padding: 12px 24px; /* Space inside navbar */
+  display: flex; /* Arrange links in a row */
+  justify-content: center; /* Center the links */
+  gap: 32px; /* Space between links */
+}
+
+/* Style for navigation links */
+.navbar a {
+  color: #22947f; /* Teal color for links */
+  text-decoration: none; /* Remove underline */
+  font-weight: bold; /* Make text bold */
+  font-size: 1.1em; /* Slightly larger text */
+  transition: color 0.2s; /* Smooth color change on hover */
+}
+
+/* Change link color on hover */
+.navbar a:hover {
+  color: #881f60; /* Change to purple-pink on hover */
+}
